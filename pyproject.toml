@@ -1,4 +1,25 @@
 
+[tool.poetry]
+name = "inventree"
+version = "1.0.0"
+description = "InvenTree - Inventory Management System"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src/backend/InvenTree" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+# Add your main dependencies here, for example:
+# django = "^3.2"
+# djangorestframework = "^3.12"
+
+[tool.poetry.dev-dependencies]
+# Add your development dependencies here, for example:
+# pytest = "^6.2"
+
 [tool.ruff]
 exclude = [
     ".git",

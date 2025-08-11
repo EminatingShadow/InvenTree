@@ -12,9 +12,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-# Add your main dependencies here, for example:
-# django = "^3.2"
-# djangorestframework = "^3.12"
+django = "^3.2"
+djangorestframework = "^3.12"
+# Add any other dependencies your project needs
 
 [tool.poetry.dev-dependencies]
 # Add your development dependencies here, for example:

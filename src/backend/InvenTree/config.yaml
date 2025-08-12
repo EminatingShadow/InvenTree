@@ -171,6 +171,7 @@ cors:
 
 # STATIC_ROOT is the local filesystem location for storing static files
 #static_root: '/home/inventree/data/static'
+static_root: '/tmp/static'
 
 # INVENTREE_BACKUP_DIR is the local filesystem location for storing backups
 #backup_dir: '/home/inventree/data/backup'

@@ -16,13 +16,20 @@
 #       e.g INVENTREE_DB_NAME / INVENTREE_DB_USER / INVENTREE_DB_PASSWORD
 # Do not change this section if you are using the package - use `inventree config` instead
 # TO MAINTAINERS: Do not change database strings
+# database:
+#   engine: ${INVENTREE_DB_ENGINE}
+#   name: ${INVENTREE_DB_NAME}
+#   user: ${INVENTREE_DB_USER}
+#   password: ${INVENTREE_DB_PASSWORD}
+#   host: ${INVENTREE_DB_HOST}
+#   port: ${INVENTREE_DB_PORT}
 database:
-  engine: ${INVENTREE_DB_ENGINE}
-  name: ${INVENTREE_DB_NAME}
-  user: ${INVENTREE_DB_USER}
-  password: ${INVENTREE_DB_PASSWORD}
-  host: ${INVENTREE_DB_HOST}
-  port: ${INVENTREE_DB_PORT}
+  engine: django.db.backends.postgresql
+  name: neondb
+  user: neondb_owner
+  password: npg_oWP1SNgcrp8D
+  host: ep-small-block-a1wq3tt6-pooler.ap-southeast-1.aws.neon.tech
+  port: 5432
   # --- Available options: ---
   # ENGINE: Database engine. Selection from:
   #         - mysql

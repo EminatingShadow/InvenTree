@@ -25,11 +25,13 @@
 #   port: ${INVENTREE_DB_PORT}
 database:
   engine: django.db.backends.postgresql
+  host: ep-small-block-a1wq3tt6-pooler.ap-southeast-1.aws.neon.tech
+  port: 5432
   name: neondb
   user: neondb_owner
   password: npg_oWP1SNgcrp8D
-  host: ep-small-block-a1wq3tt6-pooler.ap-southeast-1.aws.neon.tech
-  port: 5432
+  
+  
   # --- Available options: ---
   # ENGINE: Database engine. Selection from:
   #         - mysql
